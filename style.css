@@ -1,6 +1,6 @@
 :root {
     --height-1: 74px;
-    --height-2: 394px;
+    --height-2: 262px;
     --width-1: 505px;
     --width-2: 414px;
     --padd-1: 20px;
@@ -27,41 +27,38 @@ body {
     text-align: center;
 }
 
-header,
-nav,
-footer,
-section,
-aside,
-h1,
-p.article-text,
-p {
+header, nav, footer, section, aside, h1, p.article-text, p {
     background-color: #ebebeb;
     color: #777;
     margin: var(--marg-1);
     padding: var(--padd-2);
 }
 
-.main {
-    display: flex;
+section, aside{
+    height: var(--height-2);
 }
 
 section {
     width: var(--width-1);
+    float: left;
 }
 
 aside {
     width: var(--width-2);
+    display: inline-block;
 }
 
-article {
+article, .article-head {
     background: #777;
     color: #ebebeb;
     padding: var(--padd-2);
 }
 
 .article-head {
-    background-color: #777;
-    color: #ebebeb;
     margin: 0;
     padding: 0;
+}
+
+footer{
+    clear: both;
 }
