@@ -1,3 +1,3 @@
 # HW-Wireframe
 
-(https://mrdahmadov1.github.io/HW-Wireframe/)[Open in Browser]
+[Open in Browser](https://mrdahmadov1.github.io/HW-Wireframe/)
